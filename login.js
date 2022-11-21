@@ -1,5 +1,3 @@
-document.getElementById("UserName").innerHTML = localStorage.getItem("UserName");
-document.getElementById("UserPassword").innerHTML = loacalStorage.getItem("Userpassword");
 
 const form = document.getElementById('form')
 const UserName = document.getElementById('UserName');
@@ -33,14 +31,15 @@ const validateInputs = () => {
     const UserNameValue = UserName.value.trim();
     const UserPassword = UserPassword.value.trim();
 
-    if(UserNameValue === ''){
+    if(UserNameValue == ''){
         setError(UserName, 'Skriv ditt användarnamn');
     } else{
         setSuccess(UserName);
     }
-    if(UserPasswordValue === ''){
+    if(UserPasswordValue == ''){
         setError(UserPassword, 'Skriv ditt lösenord');
     } else{
         setSuccess(UserPassword);
     }
 };
+
