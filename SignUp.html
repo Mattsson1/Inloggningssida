@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="SignUpPage">
+      <h1>Registerara dig</h1>
+      <br />
+
+      <form">
+        <div class="input-control">
+          <label for="Email">Email:</label>
+          <input type="text" id="EmailInput" placeholder="Skriv in Email här" id="Namn" />
+          <div class="error"></div>
+          <!--Denna 'div' som kommer innehålla error messages -->
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label for="Username">Avändarnamn</label>
+          <input type="text" id="UserNameInput" placeholder="Skriv in ditt användarnamn här" />
+        </div>
+        <br />
+
+        <div class="input-control">
+          <label>Lösenord</label>
+          <input type="password" id="PasswordInput" placeholder="Skriv in ditt lösenord här" />
+        </div>
+
+        <div class="input-control">
+          <label>Lösenord</label>
+          <input type="password" id="PasswordInput2" placeholder="Skriv in ditt lösenord igen" />
+        </div>
+
+        <input type="checkbox" onclick="ShowPasswordFunction()" /> Visa lösenord
+
+        <br />
+
+        <input type="submit" id="SubmitButton" value="Bekräfta" onclick="Register()" />
+      </form>
+    </div>
+    <script src="SignUp.js"></script>
+  </body>
+</html>
