@@ -17,15 +17,4 @@ function Register() {
   localStorage.setItem("UserEmail", EmailInput);
   localStorage.setItem("UserName", UserNameInput);
   localStorage.setItem("UserPassword", PasswordInput);
-
-  /*var user = {
-    email: email,
-    username: username,
-    password: pass,
-  };
-
-  var json = JSON.stringify(user);
-  localStorage.setItem(username, json);
-  console.log("user added");
-  */
 }
