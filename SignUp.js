@@ -18,3 +18,6 @@ function RegisterSave() {
   localStorage.setItem("UserName", UserNameInput);
   localStorage.setItem("UserPassword", PasswordInput);
 }
+function TillLogin() {
+  window.location.href = "login.html";
+}
