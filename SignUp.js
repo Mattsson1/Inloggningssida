@@ -8,7 +8,7 @@ function ShowPasswordFunction() {
   }
 }
 
-function Register() {
+function RegisterSave() {
   //Sparade inputs variabler
   var EmailInput = document.getElementById("EmailInput").value;
   var UserNameInput = document.getElementById("UserNameInput").value;

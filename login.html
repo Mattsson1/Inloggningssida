@@ -6,35 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <script defer src="./login.js"></script>
-    
-<style>
-
-</style>
+    <link rel="stylesheet" href="SignUpStyle.css">
 
 </head>
 <body>
     <div id="id01" class="login">
 <form id="form"  action="/" >
-    <div class="impgcontainer">
-        <span onclick="document.getElementById('id01').style.display='none'"
-        class="close" title="Close Login">&times;</span>
-    </div>
-
+    
     <div class="input-control">
         <label for="usname"><b>Användarnamn</b></label><br>
-        <input id="UserName" type="text" placeholder="Användarnamn" required>
-        <div class="error"></div><br>
-    </div>
-    <div class="input-control"> 
-    <label for="psw"><b>Lösenord</b></label><br>
-    <input id="UserPassword" type="password" placeholder="Lösenord"  required>
-    <div class="error"></div><br><br>
-</div>
-    <label>
- <input type="checkbox" checked="checked" name="komihåg"> kom ihåg</label> <button type="submit">Logga in</button><br>
+<input type="text" placeholder="Användarnamn" name="usname"><br>
+    <div class="error"></div></div>
 
-<a href="SignUp.html">Registrera</a>
-    
+<div class="input-control">
+<label for="psw"><b>Lösenord</b></label><br>
+    <input type="password" placeholder="Lösenord" name="psw"><br><br>
+    <div class="error"></div>
+</div>
+<label>
+       <input type="checkbox" checked="checked" name="komihåg"> kom ihåg</label> <button type="submit">Logga in</button> 
+       <a href="SignUp.html">Register</a>
+
 </form>
     </div>
 
